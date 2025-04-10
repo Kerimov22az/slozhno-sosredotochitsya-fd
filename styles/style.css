@@ -101,7 +101,6 @@
 
 .header__theme-menu-button {
   padding: 0 13px;
-  text-transform: lowercase;
   background-color: transparent;
   font-size: var(--content-font-size);
   color: var(--button-color);

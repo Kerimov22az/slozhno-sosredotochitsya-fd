@@ -150,6 +150,11 @@
   display: grid;
 }
 
+.section__content-grid {
+  display: grid;
+  gap: 20px;
+}
+
 .section__content-title {
   width: 100%;
   color: var(--section-title-color);
@@ -164,6 +169,10 @@
 .section__content-block {
   display: flex;
   flex-direction: column;
+  /* gap: 20px; */
+}
+
+.block-concentration {
   gap: 20px;
 }
 
@@ -330,9 +339,7 @@
   }
 
   .section__content-grid {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
   }
 
   .header__theme-menu-list {

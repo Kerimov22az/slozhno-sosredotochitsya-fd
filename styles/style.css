@@ -173,6 +173,7 @@ display: grid;
   flex-direction: column;
   gap: 10px;
 }
+
 .title__article {
   margin-bottom: 10px;
 }

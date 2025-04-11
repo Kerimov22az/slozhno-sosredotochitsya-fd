@@ -34,6 +34,22 @@
 }
 
 @media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --page-bg-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --button-color: #353430;
+    --title-color: #ffc2e6;
+    --shadow-color: #ff8dcb;
+    --header-text-color: #353430;
+    --subtitle-color: #353430;
+    --text-color: #353430;
+    --section-title-color: #353430;
+    --decorated-color: #353430;
+    --border-color-opacity: #32312d40;
+    --footer-shadow-color: #ff0070;
+}
+
   .rec {
     display: none; 
   }
